@@ -37,9 +37,6 @@ createdb study-sync -h localhost -U postgres
 psql postgresql://postgres:password@localhost:5432/study-sync
 ```
 
-https://github.com/omenking/aws-bootcamp-cruddur-2023/blob/main/journal/week04.md
-
-
 ## Create Schema
 psql study-sync < src/sql/schema.sql -h localhost -U postgres
 
